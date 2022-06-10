@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+    &__link{
+        font-size: 45px;
+        padding: 12px;
+        text-decoration: none;
+        font-family: $font-sec;
+        color: white;
+        &:hover{
+           color: $color-secondary; 
+           
+          
+        }
+    }
+
+}
