@@ -1,7 +1,10 @@
 @import "./variables";
 @import "./Layout/Home";
 @import "./Layout/Gallery";
+@import "./Layout/Contact";
 
 @import "./Components/header";
 @import "./Components/navbar";
 @import "./Components/footer";
+@import "./Components/slide";
+@import 'react-slideshow-image/dist/styles.css'

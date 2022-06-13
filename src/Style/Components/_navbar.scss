@@ -1,18 +1,18 @@
-.nav{
-    display: flex;
-    flex-direction: row;
-    
-    &__link{
-        font-size: 45px;
-        padding: 12px;
-        text-decoration: none;
-        font-family: $font-sec;
-        color: white;
-        &:hover{
-           color: $color-secondary; 
-           
-          
-        }
-    }
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
+  &__link {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 12px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: $font-sec;
+    color: white;
+    &:hover {
+      color: $color-tertiary;
+    }
+  }
 }

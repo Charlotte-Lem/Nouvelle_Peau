@@ -1,11 +1,10 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaHome } from "react-icons/fa";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/1.jpeg";
 
 export default function Footer() {
   return (
     <footer>
-      <img src={logo} alt="logo nouvelle peau" />
       <h3 className="hours">
         Ouvert du :
         <br />
@@ -16,6 +15,7 @@ export default function Footer() {
          Fermé le dimanche et lundi
       </h3>
 
+      <img src={logo} alt="logo nouvelle peau" />
       <ul className="link">
         <li className="footer__link-reseau">
           <FaFacebook className="icone__link icone__réseau" />
