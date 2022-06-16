@@ -1,12 +1,28 @@
 .home {
+  color: white;
+  font-family: $font-tert;
+  &__intro {
+    margin: 5px;
+    background-image: url('../Layout/bg.png');
+    background-color: $color-primary;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    border-radius: 15px;
+    text-align: center;
+  }
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: 60px auto;
-  justify-content: center;
-  flex-direction: column;
+  margin: 10px auto;
+  flex-direction: row;
   align-items: center;
-  h2 {
+  justify-content: space-around;
+  p {
+    font-size: 25px;
+  }
+  h2,
+  h3 {
     font-size: 30px;
     text-align: center;
     @media screen and (max-width: 992px) {
@@ -16,12 +32,13 @@
 }
 
 .imgProfile {
-  margin-top: 20px;
-  max-width: 50%;
+  margin: 10px;
+  max-width: 40%;
   height: auto;
-  @media screen and (max-width: 992px) {
+
+  @media screen and (max-width: 1250px) {
     margin-top: 20px;
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
   }
 }

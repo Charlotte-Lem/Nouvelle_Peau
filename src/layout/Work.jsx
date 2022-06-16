@@ -1,18 +1,11 @@
 import React from 'react';
-import Slideshow from '../components/Gallery/Slide';
+import Carousel from '../components/Gallery/CarouselWork';
 export default function Work() {
   return (
-    <div className="gallery">
-      <h2> hello gallery</h2>
-      <article className="gallery__wrapper">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sapiente
-        suscipit labore reprehenderit perferendis! Eaque incidunt labore debitis
-        libero quos nesciunt nulla fugiat explicabo sed ducimus architecto, ex
-      </article>
+    <>
+      <h2 className="gallery__title"> Aperçu des projets déjà réalisés </h2>
 
-      <div className="gallery__show">
-        <Slideshow />
-      </div>
-    </div>
+      <Carousel />
+    </>
   );
 }

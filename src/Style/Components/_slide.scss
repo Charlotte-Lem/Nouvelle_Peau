@@ -1,9 +1,12 @@
 .containerSlide {
-  width: 800px;
+  width: 600px;
+  min-width: 300px;
   padding-top: 100px;
   margin: auto;
   img {
     height: 650px;
+    width: 600px;
+    min-width: 300px;
   }
   .each-slideshow-indicator {
     background-color: white;
@@ -18,18 +21,15 @@
   height: 550px;
   color: white;
 }
-.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
-    
-    width: 10px !important;
-    height: 10px  !important;
-    
-    background: #f2eaea !important;
+.react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
+  width: 10px !important;
+  height: 10px !important;
 
+  background: #f2eaea !important;
 }
-.react-slideshow-container+ul.indicators li {
-    
-    width: 25px !important;
-    height: 6px !important;
-    padding: 12px !important;
-    margin: 10px !important;
+.react-slideshow-container + ul.indicators li {
+  width: 25px !important;
+  height: 6px !important;
+  padding: 12px !important;
+  margin: 10px !important;
 }

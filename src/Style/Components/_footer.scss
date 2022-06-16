@@ -1,4 +1,17 @@
 footer {
+  background-image: url('../Layout/bg.png');
+  background-color: $color-primary;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 600;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    &:hover {
+      color: $color-tertiary;
+    }
+  }
   color: #eec66c;
   @media screen and (max-width: 992px) {
     display: flex;
@@ -8,12 +21,9 @@ footer {
     padding: 9px 5px;
   }
   border-top: 2px solid white;
-  // background-image: url('../../assets/3.jpeg');
-  // background-repeat: no-repeat;
-  // background-size: cover;
   align-items: center;
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 10px 20px;
   display: flex;
   justify-content: space-evenly;
@@ -42,13 +52,6 @@ footer {
   .icone {
     &__link {
       margin: 0 10px;
-    }
-  }
-  .footer__link-reseau {
-    color: white;
-    cursor: pointer;
-    &:hover {
-      color: $color-tertiary;
     }
   }
   .footer__link {

@@ -1,10 +1,13 @@
-@import "./variables";
-@import "./Layout/Home";
-@import "./Layout/Gallery";
-@import "./Layout/Contact";
+@import './variables';
+@import './Layout/Home';
+@import './Layout/Gallery';
+@import './Layout/Contact';
+@import './Layout/Available';
 
-@import "./Components/header";
-@import "./Components/navbar";
-@import "./Components/footer";
-@import "./Components/slide";
-@import 'react-slideshow-image/dist/styles.css'
+@import './Components/header';
+@import './Components/swipper';
+@import './Components/carousel.scss';
+@import './Components/navbar';
+@import './Components/footer';
+@import './Components/slide';
+@import 'react-slideshow-image/dist/styles.css';

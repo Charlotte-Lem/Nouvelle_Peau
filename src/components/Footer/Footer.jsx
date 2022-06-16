@@ -7,7 +7,7 @@ export default function Footer() {
       <h3 className="hours">
         Ouvert du :
         <br />
-        mardi au vendredi de 9H00 à 11H30
+        mardi au vendredi de 9H00 à 11H30 et de 14h00 à 18H00
         <br />
         Samedi de 14H00 à 18H00
         <br />
@@ -16,12 +16,16 @@ export default function Footer() {
 
       <ul className="link">
         <li className="footer__link-reseau">
-          <FaFacebook className="icone__link icone__réseau" />
-          Facebook
+          <a href="https://www.facebook.com/estellenouvellepeau">
+            <FaFacebook className="icone__link icone__réseau" />
+            Facebook
+          </a>
         </li>
         <li className="footer__link-reseau">
-          <FaInstagram className="icone__link icone__réseau" />
-          Instagram
+          <a href="https://www.instagram.com/nouvellepeau">
+            <FaInstagram className="icone__link icone__réseau" />
+            Instagram
+          </a>
         </li>
         <li className="footer__link">
           <FaHome className="icone__link" />

@@ -1,4 +1,9 @@
 .header {
+  background-image: url('../Layout/bg.png');
+  background-color: $color-primary;
+
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: 2px solid white;
   display: flex;
   justify-content: space-around;
